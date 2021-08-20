@@ -4,6 +4,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
+    padding: 3rem 0;
     background-color: #161616;
     color: #ffffff;
 }
@@ -50,6 +51,10 @@ p {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .page-padding {
     margin: 0 auto 0 auto;
     max-width: 60rem;
@@ -74,10 +79,20 @@ p {
 
 /* --------- */
 
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socials i {
+    font-size: 1.3rem;
+    margin-left: 0.8rem;
+}
+
 .logo {
     display: block;
-    margin: 12rem auto 5rem auto;
-    width: 13rem;
+    margin: 10rem auto 5rem auto;
+    width: 15rem;
 }
 
 .hero {
@@ -93,7 +108,7 @@ p {
 .about-paragraph {
     margin-right: auto;
     margin-left: auto;
-    max-width: 35rem;
+    max-width: 25rem;
 }
 
 .paragraph-topic {
@@ -156,7 +171,9 @@ p {
 }
 
 footer {
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-logo {
