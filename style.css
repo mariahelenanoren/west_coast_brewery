@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+
+h1,
+h2,
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    margin: 1.5rem 0 3rem 0;
+    font-size: 2.5rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+p,
+h4 {
+    font-family: 'Helvetica Neue', Helvetica, serif;
+}
+
+p {
+    margin: 1rem 0 0.8rem 0;
+    font-size: 0.9rem;
+}
+
+/* REUSABLE STYLES */
+
+.text-center {
+    text-align: center;
+}
+
+.page-padding {
+    margin: 0 auto 0 auto;
+    max-width: 60rem;
+    padding: 0 5rem;
+}
+
+.semibold {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    font-weight: 300;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+/* --------- */
+
+.logo {
+    display: block;
+    margin: 10rem auto 4.5rem auto;
+    width: 15rem;
+}
+
+.hero {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.about {
+    padding: 4rem 0;
+}
+
+.about-paragraph {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 35rem;
+}
+
+.paragraph-topic {
+    font-family: 'PT Sans', sans-serif;
+    color: #ff80ba;
+    text-transform: uppercase;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('./assets/can.jpeg');
+    background-size: cover;
+    padding: 1rem;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-details {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
